@@ -1,15 +1,15 @@
 body{
    margin: 0;
 }
-#person{
+.highlight{
     color: orangered;
-    display: block;
 }
-h1{
+.title{
     font-size: 50px;
 }
-section{
+.top-section{
     display: flex;
+
 }
 .half-width{
     width: 40%;
@@ -29,4 +29,44 @@ section{
     margin-top: 5%;
     color: white;
     border-radius: 5px;
+}
+
+/* MIDDLE CONTENT  */
+.middle-content{
+    margin-top: 100px;
+}
+.middle-content h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+}
+.flexible-container img{
+    width: 40%;
+}
+.flexible-container .item{
+
+    width: 21%;
+    padding: 40px 25px;
+    border-radius: 30px;
+    color: white;
+} 
+
+.banner_1{
+    background-color: coral;
+   
+}
+.banner_2{
+    background-color: royalblue;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.banner_3{
+    background-color: cyan;
+    
 }
