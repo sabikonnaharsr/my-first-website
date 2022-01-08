@@ -1,3 +1,32 @@
+body{
+   margin: 0;
+}
+#person{
+    color: orangered;
+    display: block;
+}
 h1{
-    color: coral;
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin-left: 10%;
+}
+.top-content-area{
+    /* padding-top: 200px; */
+    align-self: center;
+}
+.top-image-area img{
+    width: 70%;
+}
+.linked-button{
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 5px;
 }
